@@ -1,0 +1,23 @@
+*{
+    margin: 12px;
+}
+
+body{
+    background: linear-gradient(0.25turn,white, #ffeda5)
+}
+
+h1{
+    text-align: center;
+    text-shadow: #f2c1ca 1px 0 10px;
+    color: red;
+}
+
+h2{
+    border: 6px solid #ffeda5;
+}
+
+h3{
+    padding-left: 4px;
+    border-left: 16px solid black;
+    border-top: 4px solid orange;
+}
