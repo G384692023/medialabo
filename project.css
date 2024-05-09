@@ -1,3 +1,10 @@
 div{
     background: linear-gradient(0.4turn,white, #89e3ff)
 }
+input{
+margin-top: 6px;
+margin-left: 6px;
+}
+ul{
+    margin: 12px;
+}
