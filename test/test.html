@@ -36,7 +36,7 @@
 
         // Earth setup
         const geometry = new THREE.SphereGeometry(5, 32, 32);
-        const texture = new THREE.TextureLoader().load('earth_texture.jpg');
+        const texture = new THREE.TextureLoader().load('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhIVFRUVFhUVFRUVFhUVFRUVFhUVFRUWFxUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGy0lHx8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAJ8BPgMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAEBQMGAAECB//EAEcQAAIBAgQDBQUEBwkEAwEAAAECEQADBBIhMQVBURMiYXGBkaGx8DKCscHRQlLhM1JykvEjJDRTcoLxFnKTorLSJURj/8QAGQEAAwEBAQAAAAAAAAAAAAAAAgMEAQAF/8QAKhEAAgIABAMFBwQDAAAAAAAAAAECEQMSITEFQVEiMmFxkaGx8BRCUqGzwhU0M1Nisf/aAAwDAQACEQMRAD8A+7jXDeoooryTUbX/GdOQjuPbFK3r1rvM3RNqO40zBx4zmtdFb7Lf6V54tkt7d7XTWdE1z3C+h+led4W7e3dN2eXfWdI7cOjo62u4rOMAeVftLNeFfS/EnSdEubzbNxGvvYBqKKOsmx3eNcMxzt3uWg1zs2uad8vLdU1S9q61eob6g6g9a6KzfD5s7bfaMyNMW7d7ftF2a5XfObvI93zSdQ0u1frTqPqVKU4tSpTQRy1anSeIoVKpKU2c1C3hYq9Vk7igJ9hRRRX2BSUtFFFaBRRRQFFFFAUUUUH/2Q==');
         const material = new THREE.MeshBasicMaterial({ map: texture });
         const earth = new THREE.Mesh(geometry, material);
         scene.add(earth);
