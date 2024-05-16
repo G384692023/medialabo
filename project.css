@@ -15,3 +15,6 @@ div#main {
 	grid-gap: 10px;
 	width: 1024px;
 }
+iframe#map{
+    margin: 10px;
+}
