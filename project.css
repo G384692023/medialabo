@@ -8,3 +8,10 @@ margin-left: 6px;
 ul{
     margin: 12px;
 }
+div#zentai {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 200px 200px;
+	grid-gap: 10px;
+	width: 1024px;
+}
