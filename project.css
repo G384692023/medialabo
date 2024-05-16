@@ -1,4 +1,4 @@
-div{
+div#zentai {
     background: linear-gradient(0.4turn,white, #89e3ff)
 }
 input{
@@ -8,7 +8,7 @@ margin-left: 6px;
 ul{
     margin: 12px;
 }
-div#zentai {
+div#main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 200px 200px;
