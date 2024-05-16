@@ -13,7 +13,7 @@ div#main {
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 200px 200px;
 	grid-gap: 10px;
-	width: 1024px;
+	width: 50%;
 }
 iframe#map{
     margin: 10px;
