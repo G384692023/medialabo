@@ -13,11 +13,10 @@
         <div id="main">
 
         <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.7570661315866!2d経度を入力してください!3d緯度を入力してください!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A場所名を入力してください!2s場所名を入力してください!5e0!3m2!1sen!2sus!4v1610226176309!5m2!1sen!2sus" 
+            <iframe id="theMpa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.7570661315866!2d経度を入力してください!3d緯度を入力してください!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A場所名を入力してください!2s場所名を入力してください!5e0!3m2!1sen!2sus!4v1610226176309!5m2!1sen!2sus" 
                     width="600" 
                     height="450" 
-                    style="border:0;" 
-                    allowfullscreen="" 
                     loading="lazy">
             </iframe>
         </div>
@@ -25,7 +24,8 @@
 
         <div id="data">
         <ul>
-            <li>世界の天気(検索結果1件)
+            <li>
+                <p id="kensaku">世界の天気(検索結果1件)</p>
                 <ul>
                     <li>緯度: 116.3972</li>
                     <li>経度: 39.9075</li>
@@ -44,5 +44,6 @@
         </div>
 
         </div>
+        <div id="result"></div>
     </body>
 </html>
