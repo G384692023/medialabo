@@ -65,8 +65,22 @@ let divIdZentai = document.createElement("div");
 divIdZentai.setAttribute("id","zentai");
 resultId.insertAdjacentElement("beforeend",divIdZentai);
 
+let label = document.createElement("label");
+label.setAttribute("for","kensaku");
+label.textContent = "検索キー:"
+divIdZentai.insertAdjacentElement("beforeend",label);
+
 let input = document.createElement("input");
+input.setAttribute("Type","text");
+input.setAttribute("name","kensaku");
+input.setAttribute("id","kensaku");
+input.setAttribute("size","20");
 divIdZentai.insertAdjacentElement("beforeend",input);
+
+let button = document.createElement("button");
+button.setAttribute("id","zikkou");
+button.textContent = "検索";
+divIdZentai.insertAdjacentElement("beforeend",button);
 
 
 let divIdMain = document.createElement("div");
@@ -141,3 +155,19 @@ let li_10 = document.createElement("li");
 li_10.textContent="都市名："+data.name;
 ul_2.insertAdjacentElement("beforeend",li_10);
 
+button.addEventListener("click",outputkey);
+
+function outputkey(){
+  let i = document.querySelector('input[name="kensaku"]');
+  let key = i.value;
+  console.log("検索キー:"+key);
+  /*
+  let keyId;
+  for(let n of data){
+    if(n === key){
+      keyId = n.id;
+    }
+  }
+  console.log(keyId);
+  */
+}

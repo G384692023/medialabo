@@ -1,9 +1,14 @@
-div#zentai {
+div#result {
     background: linear-gradient(0.4turn,#009fff, #89e3ff)
 }
+label{
+margin: 6px;
+}
 input{
-margin-top: 6px;
-margin-left: 6px;
+	margin: 6px;
+}
+button{
+	margin: 6px;
 }
 ul{
     margin: 12px;
