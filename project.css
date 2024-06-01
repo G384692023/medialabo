@@ -11,7 +11,7 @@ div#background{
 }
 
 div#animation{
-
+	background: null;
 }
 
 div#animation_ame::before{
