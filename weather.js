@@ -56,8 +56,8 @@ console.log("最高気温："+data.main.temp_max+"℃");
 console.log("湿度："+data.main.humidity+"%");
 console.log("風速："+data.wind.speed+"m/s");
 console.log("都市名："+data.name);
-
 console.log("風向き："+data.wind.deg);
+
 
 ////////////////////////////////////
 
